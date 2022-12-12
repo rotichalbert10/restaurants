@@ -1,0 +1,78 @@
+<DOCType HTML!>
+<html>
+
+<head>
+      <meta charset="UTF-8">
+	  <meta name ="viewport" content ="width=device,initial-scale=1.0">
+	  <title>GISWEB</title>
+	  
+	  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="crossorigin=""/>
+	  
+	   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ 
+      <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+     integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+     crossorigin=""></script>
+	</head>
+	
+<style>
+     /* #map {
+		 height: 500px;
+		 }
+		 
+	 body{
+	 background-image:url("R.png");
+	 background-repeat:no-repeat;
+	
+	    } */
+	     h1,h2 {
+		 text-align:center;
+		 font-size:20px;
+		 color: red;
+		 }
+	     /* footer {
+		 text-align:center;
+		 font-size:20px;
+		 color:white;
+		  footer-position:bottom; 
+		 } */
+		 /* marker {
+		 color: red;
+		 } */
+	 
+</style>
+<body>
+<h1><u>GISWEB</u></h1>
+<h2>restaurants</h2>
+     <div id="map"></div>
+	
+	 <!-- <script>
+	       	    
+			var map = L.map('map').setView([-1.075573,37.010907], 10); 
+					
+			
+		    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+             maxZoom: 19,
+             attribution: '© OpenStreetMap'
+           }).addTo(map);
+		   
+		    var marker = L.marker([-1.075573,37.010907]).addTo(map);
+			marker.bindPopup("<b>THIKA</b><br>TOWN.").openPopup();
+			var marker = L.marker([-1.094876, 37.018962]).addTo(map);
+			marker.bindPopup("<b>JKUAT</b><br>INSTITUTION.").openPopup();
+			var marker = L.marker([1.201211, 37.0244135]).addTo(map);
+			marker.bindPopup("<b>SAMBURU</b><br>COUNTY.").openPopup();
+			var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+			var cities = L.layerGroup([THIKA, SAMBURU, JKU]);
+			
+		
+			
+	 </script> -->
+	 <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="1200" height="480" src="https://charts.mongodb.com/charts-mongoheroku-fippb/embed/charts?id=6397055c-6a27-4659-8308-e16f3e40388e&maxDataAge=3600&theme=light&autoRefresh=true"></iframe>   
+
+	</body>
+	<footer><u>Author</u>: Albert Rotich<br>
+	<u>contributor</u>: John Warigi<br>
+	</footer
+	   
+</html> 
